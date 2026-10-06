@@ -1,0 +1,255 @@
+{
+  "sizes": [
+    2003
+  ],
+  "seeds": [
+    2101,
+    2102,
+    2103
+  ],
+  "budgets_seconds": {
+    "line": 40,
+    "heat": 40,
+    "plane": 30,
+    "cpsat": 90
+  },
+  "results": [
+    {
+      "seed": 2101,
+      "checks": {
+        "p": 2003,
+        "m": 2002,
+        "n": 200,
+        "r": 1001,
+        "d": 201,
+        "ell": 99,
+        "alpha": 0.0999000999000999,
+        "lambda": 0.04945054945054945,
+        "rho": 0.49975037443834247,
+        "rank": 200,
+        "minors_nonsingular": "5/5",
+        "decoder_recovered": 20,
+        "D0": {
+          "H_q(lambda)": 0.07534625367488193,
+          "alpha": 0.0999000999000999,
+          "pass": true
+        },
+        "D1": {
+          "delta": 0.1003996003996004,
+          "pass": true
+        },
+        "D2": {
+          "threshold": 0.005002527621326025,
+          "pass": true
+        },
+        "D3": {
+          "rho(1-rho)": 0.24999993768707895,
+          "threshold": 0.013144058885383806,
+          "pass": true
+        },
+        "D4": {
+          "pass": true
+        },
+        "D5": "no efficient rate-distortion encoder known for RS",
+        "D6": "void (prime field)",
+        "Q_DQI_semicircle": 0.7165818450779916,
+        "Q_Pr": 0.5497253620069397,
+        "mu": 0.16685648307105194,
+        "kappa": 0.16789173314042485,
+        "mu_over_kappa": 0.9938338234408062,
+        "restart_threshold_m": 496.61365034370414,
+        "regime_factor": 1.0680495093822922,
+        "Q_star": 1.0,
+        "dqi_lemma92": 1414.8093235364536,
+        "gs_list_recovery": {
+          "sqrt((n-1) m r)": 19969.887280603263,
+          "m": 2002,
+          "vacuous": true
+        }
+      },
+      "attacks": {
+        "A_prange": {
+          "restarts": 20000,
+          "best": 1186,
+          "mean": 0.5496926823176823,
+          "theory_mean": 0.5497253620069396,
+          "fraction": 0.5924075924075924
+        },
+        "B_line": {
+          "best": 1206,
+          "moves": 934,
+          "restarts": 14,
+          "mean_local_optimum": 0.5965463108320251,
+          "fraction": 0.6023976023976024
+        },
+        "C_heat": {
+          "best": 1206,
+          "moves": 978,
+          "final": 1206,
+          "fraction": 0.6023976023976024
+        }
+      },
+      "best_classical": 1206,
+      "classical_minus_dqi": -208.80932353645358,
+      "seconds": 85.07485389709473
+    },
+    {
+      "seed": 2102,
+      "checks": {
+        "p": 2003,
+        "m": 2002,
+        "n": 200,
+        "r": 1001,
+        "d": 201,
+        "ell": 99,
+        "alpha": 0.0999000999000999,
+        "lambda": 0.04945054945054945,
+        "rho": 0.49975037443834247,
+        "rank": 200,
+        "minors_nonsingular": "5/5",
+        "decoder_recovered": 20,
+        "D0": {
+          "H_q(lambda)": 0.07534625367488193,
+          "alpha": 0.0999000999000999,
+          "pass": true
+        },
+        "D1": {
+          "delta": 0.1003996003996004,
+          "pass": true
+        },
+        "D2": {
+          "threshold": 0.005002527621326025,
+          "pass": true
+        },
+        "D3": {
+          "rho(1-rho)": 0.24999993768707895,
+          "threshold": 0.013144058885383806,
+          "pass": true
+        },
+        "D4": {
+          "pass": true
+        },
+        "D5": "no efficient rate-distortion encoder known for RS",
+        "D6": "void (prime field)",
+        "Q_DQI_semicircle": 0.7165818450779916,
+        "Q_Pr": 0.5497253620069397,
+        "mu": 0.16685648307105194,
+        "kappa": 0.16789173314042485,
+        "mu_over_kappa": 0.9938338234408062,
+        "restart_threshold_m": 496.61365034370414,
+        "regime_factor": 1.0680495093822922,
+        "Q_star": 1.0,
+        "dqi_lemma92": 1414.8093235364536,
+        "gs_list_recovery": {
+          "sqrt((n-1) m r)": 19969.887280603263,
+          "m": 2002,
+          "vacuous": true
+        }
+      },
+      "attacks": {
+        "A_prange": {
+          "restarts": 20000,
+          "best": 1183,
+          "mean": 0.5497010239760239,
+          "theory_mean": 0.5497253620069396,
+          "fraction": 0.5909090909090909
+        },
+        "B_line": {
+          "best": 1204,
+          "moves": 568,
+          "restarts": 9,
+          "mean_local_optimum": 0.5967920967920968,
+          "fraction": 0.6013986013986014
+        },
+        "C_heat": {
+          "best": 1197,
+          "moves": 592,
+          "final": 1197,
+          "fraction": 0.5979020979020979
+        }
+      },
+      "best_classical": 1204,
+      "classical_minus_dqi": -210.80932353645358,
+      "seconds": 87.52878260612488
+    },
+    {
+      "seed": 2103,
+      "checks": {
+        "p": 2003,
+        "m": 2002,
+        "n": 200,
+        "r": 1001,
+        "d": 201,
+        "ell": 99,
+        "alpha": 0.0999000999000999,
+        "lambda": 0.04945054945054945,
+        "rho": 0.49975037443834247,
+        "rank": 200,
+        "minors_nonsingular": "5/5",
+        "decoder_recovered": 20,
+        "D0": {
+          "H_q(lambda)": 0.07534625367488193,
+          "alpha": 0.0999000999000999,
+          "pass": true
+        },
+        "D1": {
+          "delta": 0.1003996003996004,
+          "pass": true
+        },
+        "D2": {
+          "threshold": 0.005002527621326025,
+          "pass": true
+        },
+        "D3": {
+          "rho(1-rho)": 0.24999993768707895,
+          "threshold": 0.013144058885383806,
+          "pass": true
+        },
+        "D4": {
+          "pass": true
+        },
+        "D5": "no efficient rate-distortion encoder known for RS",
+        "D6": "void (prime field)",
+        "Q_DQI_semicircle": 0.7165818450779916,
+        "Q_Pr": 0.5497253620069397,
+        "mu": 0.16685648307105194,
+        "kappa": 0.16789173314042485,
+        "mu_over_kappa": 0.9938338234408062,
+        "restart_threshold_m": 496.61365034370414,
+        "regime_factor": 1.0680495093822922,
+        "Q_star": 1.0,
+        "dqi_lemma92": 1414.8093235364536,
+        "gs_list_recovery": {
+          "sqrt((n-1) m r)": 19969.887280603263,
+          "m": 2002,
+          "vacuous": true
+        }
+      },
+      "attacks": {
+        "A_prange": {
+          "restarts": 20000,
+          "best": 1192,
+          "mean": 0.5497662087912087,
+          "theory_mean": 0.5497253620069396,
+          "fraction": 0.5954045954045954
+        },
+        "B_line": {
+          "best": 1203,
+          "moves": 1031,
+          "restarts": 15,
+          "mean_local_optimum": 0.5958041958041957,
+          "fraction": 0.6008991008991009
+        },
+        "C_heat": {
+          "best": 1207,
+          "moves": 766,
+          "final": 1207,
+          "fraction": 0.6028971028971029
+        }
+      },
+      "best_classical": 1207,
+      "classical_minus_dqi": -207.80932353645358,
+      "seconds": 85.57054376602173
+    }
+  ]
+}

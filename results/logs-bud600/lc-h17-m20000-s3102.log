@@ -1,0 +1,11 @@
+logcauchy size=20000 seed=3102: p=131071 n=1400 alpha=0.0700 ell=699 objective=cos kind=log_cauchy
+   gates: D0 True D2 True D3 None margin +0.1897
+   decoder: 30/30 exact (failures {'rejected': 0, 'wrong': 0}); beyond radius {'weight': 700, 'trials': 10, 'rejected': 10, 'recovered': 0, 'wrong': 0}; 2368.4s
+   model: Q_fin 0.2562 (5124.6) Q_Pr 0.0700 mu_fin +0.1862 | threshold 1648 (above)
+   A_prange: 1567.4769 (0.0784)
+   B_line: 1891.3083 (0.0946)
+   C_heat: 1931.3258 (0.0966)
+   best classical 1931.3258 (0.0966) by C_heat | DQI 5124.6 (0.2562) | best - DQI = -3193.3 | below DQI | 7596s
+   worst-case patterns: plus [1, 1] minus [1, 1] beyond-radius all-plus {'weight': 700, 'trials': 4, 'rejected': 4, 'recovered': 0, 'wrong': 0}
+   -> logcauchy@20000: survives the generic portfolio above the restart threshold
+exit 0

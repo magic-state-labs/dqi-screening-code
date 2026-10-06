@@ -1,0 +1,442 @@
+{
+  "quick": false,
+  "model": {
+    "u_stuck_symbols": 240,
+    "r_redundancy": 28,
+    "alpha": 0.11666666666666667,
+    "rho": 0.5,
+    "ell": 13,
+    "lambda": 0.05416666666666667,
+    "dqi_lemma92_count": 166.16081908863964,
+    "dqi_lemma92_fraction": 0.6923367462026652,
+    "dqi_semicircle_fraction": 0.7263462809256847,
+    "prange_theory_fraction": 0.5583333333333333,
+    "regime_factor": 0.9548416039104166,
+    "qstar": 0.9920797070826392,
+    "wzy_masking_bound_alpha": 0.125,
+    "gs_list_recovery_needed_agreement": 910.7359661284933,
+    "bit_level_affine_hyperplane_estimate": 0.9666666666666667,
+    "lemma92_minus_semicircle_m1e3_to_1e6": [
+      -0.01485549459870017,
+      -0.0035296181226375234,
+      -0.0007945632768256994,
+      -0.00017465797794202764
+    ],
+    "restart_threshold_m": 396.43923879538306,
+    "restart_threshold_N": 500000
+  },
+  "model_checks": {
+    "lemma92_bisection_matches_numpy_at_m240": true,
+    "lemma92_converges_to_semicircle": true,
+    "licensing_2ell_plus_1_lt_d": true,
+    "unsat_regime": true,
+    "gs_list_recovery_vacuous": true
+  },
+  "results": [
+    {
+      "identification": "A_nibble",
+      "seed": 1701,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5583564916666667,
+        "best": 168,
+        "best_rescored": 168,
+        "seconds": 21.8
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 7,
+        "pool_size": 1,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109
+        ],
+        "mean_forced_constraints": 174.775,
+        "best": 189,
+        "best_rescored": 189,
+        "seconds": 8.9
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 151,
+        "best_random_start_rescored": 151,
+        "best_from_affine": 189,
+        "best_from_affine_rescored": 189,
+        "seconds": 5.7
+      },
+      "best_overall": 189,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "A_nibble",
+      "seed": 1702,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5584427916666667,
+        "best": 169,
+        "best_rescored": 169,
+        "seconds": 26.0
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 7,
+        "pool_size": 1,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109
+        ],
+        "mean_forced_constraints": 174.63666666666666,
+        "best": 193,
+        "best_rescored": 193,
+        "seconds": 15.8
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 151,
+        "best_random_start_rescored": 151,
+        "best_from_affine": 193,
+        "best_from_affine_rescored": 193,
+        "seconds": 9.1
+      },
+      "best_overall": 193,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "A_nibble",
+      "seed": 1703,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5583426333333333,
+        "best": 170,
+        "best_rescored": 170,
+        "seconds": 25.2
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 7,
+        "pool_size": 1,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109
+        ],
+        "mean_forced_constraints": 174.07,
+        "best": 190,
+        "best_rescored": 190,
+        "seconds": 11.7
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 149,
+        "best_random_start_rescored": 149,
+        "best_from_affine": 190,
+        "best_from_affine_rescored": 190,
+        "seconds": 7.7
+      },
+      "best_overall": 190,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "B_random_bijection",
+      "seed": 1701,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5583832999999999,
+        "best": 165,
+        "best_rescored": 165,
+        "seconds": 26.0
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 4,
+        "pool_size": 43,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109
+        ],
+        "mean_forced_constraints": 67.82166666666667,
+        "best": 173,
+        "best_rescored": 173,
+        "seconds": 16.5
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 156,
+        "best_random_start_rescored": 156,
+        "best_from_affine": 173,
+        "best_from_affine_rescored": 173,
+        "seconds": 7.6
+      },
+      "best_overall": 173,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "B_random_bijection",
+      "seed": 1702,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5583538166666667,
+        "best": 169,
+        "best_rescored": 169,
+        "seconds": 27.9
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 4,
+        "pool_size": 45,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109
+        ],
+        "mean_forced_constraints": 67.78,
+        "best": 168,
+        "best_rescored": 168,
+        "seconds": 15.0
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 150,
+        "best_random_start_rescored": 150,
+        "best_from_affine": 168,
+        "best_from_affine_rescored": 168,
+        "seconds": 6.5
+      },
+      "best_overall": 169,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "B_random_bijection",
+      "seed": 1703,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5582680666666667,
+        "best": 167,
+        "best_rescored": 167,
+        "seconds": 26.6
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 4,
+        "pool_size": 44,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109,
+          109
+        ],
+        "mean_forced_constraints": 67.73666666666666,
+        "best": 170,
+        "best_rescored": 170,
+        "seconds": 16.0
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 156,
+        "best_random_start_rescored": 156,
+        "best_from_affine": 170,
+        "best_from_affine_rescored": 170,
+        "seconds": 6.8
+      },
+      "best_overall": 170,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "C_nibble_grs_multipliers",
+      "seed": 1701,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5583509916666666,
+        "best": 165,
+        "best_rescored": 165,
+        "seconds": 24.0
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 7,
+        "pool_size": 1,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          224,
+          224,
+          224,
+          224,
+          224,
+          224,
+          224,
+          224
+        ],
+        "mean_forced_constraints": 231.96833333333333,
+        "best": 237,
+        "best_rescored": 237,
+        "seconds": 10.4
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 151,
+        "best_random_start_rescored": 151,
+        "best_from_affine": 237,
+        "best_from_affine_rescored": 237,
+        "seconds": 6.0
+      },
+      "best_overall": 237,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "C_nibble_grs_multipliers",
+      "seed": 1702,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5582639749999999,
+        "best": 167,
+        "best_rescored": 167,
+        "seconds": 26.7
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 7,
+        "pool_size": 1,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          224,
+          224,
+          224,
+          224,
+          224,
+          224,
+          224,
+          224
+        ],
+        "mean_forced_constraints": 232.15666666666667,
+        "best": 237,
+        "best_rescored": 237,
+        "seconds": 14.2
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 151,
+        "best_random_start_rescored": 151,
+        "best_from_affine": 237,
+        "best_from_affine_rescored": 237,
+        "seconds": 7.5
+      },
+      "best_overall": 237,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    },
+    {
+      "identification": "C_nibble_grs_multipliers",
+      "seed": 1703,
+      "prange_gf256": {
+        "samples": 500000,
+        "mean_fraction": 0.5582852416666667,
+        "best": 167,
+        "best_rescored": 167,
+        "seconds": 27.6
+      },
+      "affine_gf2": {
+        "max_subspace_dim": 7,
+        "pool_size": 1,
+        "restarts": 600,
+        "gf2_rank_of_single_bit_functionals": [
+          224,
+          224,
+          224,
+          224,
+          224,
+          224,
+          224,
+          224
+        ],
+        "mean_forced_constraints": 231.99333333333334,
+        "best": 238,
+        "best_rescored": 238,
+        "seconds": 10.5
+      },
+      "annealing": {
+        "steps": 150000,
+        "best_random_start": 152,
+        "best_random_start_rescored": 152,
+        "best_from_affine": 238,
+        "best_from_affine_rescored": 238,
+        "seconds": 5.2
+      },
+      "best_overall": 238,
+      "checks": {
+        "mds_rank_20_subsets": true,
+        "independent_rescore_matches": true,
+        "fidelity_corrupted_equals_unmasked": true,
+        "prange_mean_near_theory": true
+      }
+    }
+  ]
+}

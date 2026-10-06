@@ -1,0 +1,13 @@
+instance log_cauchy: m=2000 n=140 alphabet=8191 alpha=0.0700
+   A rows=180 block=2: subsets 50, best mean cosine on all rows 0.1408 (on the subset 0.9998), BKZ 74s
+   A rows=180 block=20: subsets 6, best mean cosine on all rows 0.0981 (on the subset 1.0000), BKZ 1199s
+   A rows=220 block=2: subsets 50, best mean cosine on all rows 0.1419 (on the subset 0.9766), BKZ 1084s
+   BKZ2 failed, retrying with BKZ.reduction: ReductionError b'infinite loop in babai'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  infinite loop in babai
+------------------------------------------------------------------------
+Unhandled SIGSEGV: A segmentation fault occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------

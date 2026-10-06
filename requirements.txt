@@ -1,0 +1,8 @@
+# Python 3.11 or later.
+numpy==2.4.1
+ortools==9.15.6755   # CP-SAT solver (scripts 18, 30)
+psutil==7.0.0        # memory logging in runs/run_ext6.py
+
+# Optional:
+#   fpylll, cysignals   lattice attacks (scripts 43 and 51, runs/lattice/*.sh)
+#   matplotlib  figures of script 52 (stored figures: version 3.11.2)

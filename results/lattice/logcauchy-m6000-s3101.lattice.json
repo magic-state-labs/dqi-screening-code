@@ -1,0 +1,24 @@
+{
+  "instance": "logcauchy-m6000-s3101.json",
+  "fpylll": true,
+  "records": [
+    {
+      "attack": "A_subset_cvp",
+      "rows": 470,
+      "block": 2,
+      "subsets": 50,
+      "bkz_seconds": 1287.7934067249298,
+      "best_all_rows": 0.09421510009216531,
+      "subset_score_at_best": 0.9993331200205644
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 520,
+      "block": 2,
+      "subsets": 5,
+      "bkz_seconds": 4060.265377998352,
+      "best_all_rows": 0.08480296991941684,
+      "subset_score_at_best": 0.837139032494442
+    }
+  ]
+}

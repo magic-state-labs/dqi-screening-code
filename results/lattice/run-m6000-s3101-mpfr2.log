@@ -1,0 +1,7 @@
+instance log_cauchy: m=6000 n=420 alphabet=8191 alpha=0.0700
+   BKZ2 (dpe) failed, retrying in mpfr: ReductionError b'infinite loop in babai'
+   A rows=520 block=20: subsets 1, best mean cosine on all rows 0.0696 (on the subset 0.9278), BKZ 2432s
+   BKZ2 (dpe) failed, retrying in mpfr: ReductionError b'infinite loop in babai'
+   A rows=700 block=20: subsets 1, best mean cosine on all rows 0.0192 (on the subset 0.1121), BKZ 2600s
+wrote results/lattice/logcauchy-m6000-s3101-bkz.lattice.json
+exit 0

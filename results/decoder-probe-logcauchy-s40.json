@@ -1,0 +1,1022 @@
+{
+  "family": "logcauchy",
+  "objective": "cos",
+  "generator": "dqi_explorer.log_cauchy:build_log_cauchy_instance",
+  "results": [
+    {
+      "m": 600,
+      "n": 60,
+      "ell": 29,
+      "alpha": 0.1,
+      "p": 8191,
+      "h": 13,
+      "build_seed": 40,
+      "build_seconds": 0.012907028198242188,
+      "decoder": {
+        "seed": 1,
+        "trials": 62,
+        "exact_recoveries": 62,
+        "at_radius": 32,
+        "at_radius_exact": 32,
+        "below_radius": 30,
+        "by_kind": {
+          "plus": [
+            1,
+            1
+          ],
+          "minus": [
+            1,
+            1
+          ],
+          "random": [
+            60,
+            60
+          ]
+        },
+        "failures": {
+          "rejected": 0,
+          "wrong": 0
+        },
+        "beyond_radius": {
+          "weight": 30,
+          "trials": 6,
+          "rejected": 6,
+          "recovered": 0,
+          "wrong": 0
+        },
+        "seconds": 0.11244916915893555,
+        "patterns": [
+          {
+            "signs": "plus",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "minus",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 14,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 15,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 22,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 28,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 1,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 4,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 24,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 28,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 7,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 9,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 26,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 12,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 8,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 24,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 7,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 12,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 19,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 16,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 2,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 0,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 25,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 22,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 25,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 16,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 24,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 9,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 13,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 23,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 3,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 9,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          }
+        ]
+      },
+      "in_measure": {
+        "seed": 2,
+        "trials_per_weight": 12,
+        "weights": {
+          "30": {
+            "weight": 30,
+            "fraction_of_n": 0.5,
+            "recovery_fraction": 1.0,
+            "successes": 12
+          },
+          "43": {
+            "weight": 43,
+            "fraction_of_n": 0.7166666666666667,
+            "recovery_fraction": 1.0,
+            "successes": 12
+          },
+          "58": {
+            "weight": 58,
+            "fraction_of_n": 0.9666666666666667,
+            "recovery_fraction": 0.16666666666666666,
+            "successes": 2
+          }
+        }
+      },
+      "schur_square": {
+        "square_rank": 600,
+        "random_expectation": 600,
+        "full": true,
+        "control_square_rank": 600,
+        "control_random_expectation": 600
+      }
+    },
+    {
+      "m": 2000,
+      "n": 140,
+      "ell": 69,
+      "alpha": 0.07,
+      "p": 8191,
+      "h": 13,
+      "build_seed": 40,
+      "build_seconds": 0.0007627010345458984,
+      "decoder": {
+        "seed": 1,
+        "trials": 62,
+        "exact_recoveries": 62,
+        "at_radius": 32,
+        "at_radius_exact": 32,
+        "below_radius": 30,
+        "by_kind": {
+          "plus": [
+            1,
+            1
+          ],
+          "minus": [
+            1,
+            1
+          ],
+          "random": [
+            60,
+            60
+          ]
+        },
+        "failures": {
+          "rejected": 0,
+          "wrong": 0
+        },
+        "beyond_radius": {
+          "weight": 70,
+          "trials": 6,
+          "rejected": 6,
+          "recovered": 0,
+          "wrong": 0
+        },
+        "seconds": 0.6153850555419922,
+        "patterns": [
+          {
+            "signs": "plus",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "minus",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 33,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 35,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 52,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 66,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 2,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 10,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 57,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 66,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 17,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 21,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 60,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 29,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 19,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 57,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 17,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 28,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 45,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 38,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 6,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 1,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 60,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 52,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 58,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 37,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 57,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 23,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 31,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 55,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 8,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 69,
+            "at_radius": true,
+            "exact": true,
+            "rejected": false
+          },
+          {
+            "signs": "random",
+            "weight": 21,
+            "at_radius": false,
+            "exact": true,
+            "rejected": false
+          }
+        ]
+      },
+      "in_measure": {
+        "seed": 2,
+        "trials_per_weight": 12,
+        "weights": {
+          "70": {
+            "weight": 70,
+            "fraction_of_n": 0.5,
+            "recovery_fraction": 1.0,
+            "successes": 12
+          },
+          "103": {
+            "weight": 103,
+            "fraction_of_n": 0.7357142857142858,
+            "recovery_fraction": 1.0,
+            "successes": 12
+          },
+          "138": {
+            "weight": 138,
+            "fraction_of_n": 0.9857142857142858,
+            "recovery_fraction": 0.08333333333333333,
+            "successes": 1
+          }
+        }
+      }
+    }
+  ]
+}

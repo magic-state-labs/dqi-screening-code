@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+# instance copies made by runs/lattice/*.sh (identical to the stored instances)
+results/lattice/*-bkz.json
+# logs of runs/lattice/run_seeds.sh at m = 600 (not stored)
+results/lattice/run-m600-s*.log
+results/paper-derived-numbers.json

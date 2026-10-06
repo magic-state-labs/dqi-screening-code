@@ -1,0 +1,14 @@
+   BKZ2 failed, retrying with BKZ.reduction: ReductionError b'infinite loop in babai'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  infinite loop in babai
+------------------------------------------------------------------------
+   BKZ2 failed, retrying with BKZ.reduction: ReductionError b'infinite loop in babai'
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  infinite loop in babai
+------------------------------------------------------------------------
+Unhandled SIGSEGV: A segmentation fault occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+exit 139

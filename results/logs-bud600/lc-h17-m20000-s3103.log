@@ -1,0 +1,12 @@
+logcauchy size=20000 seed=3103: p=131071 n=1400 alpha=0.0700 ell=699 objective=cos kind=log_cauchy
+   gates: D0 True D2 True D3 None margin +0.1897
+   decoder: 30/30 exact (failures {'rejected': 0, 'wrong': 0}); beyond radius {'weight': 700, 'trials': 10, 'rejected': 10, 'recovered': 0, 'wrong': 0}; 2414.4s
+   model: Q_fin 0.2562 (5124.6) Q_Pr 0.0700 mu_fin +0.1862 | threshold 1648 (above)
+   A_prange: 1579.6796 (0.0790)
+   B_line: 1962.9178 (0.0981)
+   C_heat: 1909.1392 (0.0955)
+   best classical 1962.9178 (0.0981) by B_line | DQI 5124.6 (0.2562) | best - DQI = -3161.7 | below DQI | 7945s
+   worst-case patterns: plus [1, 1] minus [1, 1] beyond-radius all-plus {'weight': 700, 'trials': 4, 'rejected': 4, 'recovered': 0, 'wrong': 0}
+   wrote results/finite-control-screen-logcauchy-run-h17bud600-m20000-s3103.json
+   -> logcauchy@20000: survives the generic portfolio above the restart threshold
+exit 0

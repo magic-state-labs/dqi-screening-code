@@ -1,0 +1,88 @@
+{
+  "instance": "logcauchy-params-m2000-n140-p8191",
+  "babai": {
+    "attack": "E_babai_model",
+    "tau": 0.2433,
+    "calibration": 1.4,
+    "curve": [
+      {
+        "beta": 20,
+        "rows": 312,
+        "model": 0.14673043741568312,
+        "calibrated": 0.20542261238195636,
+        "core_svp_log2": 5.84
+      },
+      {
+        "beta": 30,
+        "rows": 328,
+        "model": 0.15315229592515428,
+        "calibrated": 0.21441321429521598,
+        "core_svp_log2": 8.76
+      },
+      {
+        "beta": 40,
+        "rows": 344,
+        "model": 0.15833003135597334,
+        "calibrated": 0.22166204389836267,
+        "core_svp_log2": 11.68
+      },
+      {
+        "beta": 50,
+        "rows": 312,
+        "model": 0.14689769329121358,
+        "calibrated": 0.205656770607699,
+        "core_svp_log2": 14.6
+      },
+      {
+        "beta": 60,
+        "rows": 328,
+        "model": 0.1501541558918324,
+        "calibrated": 0.21021581824856533,
+        "core_svp_log2": 17.52
+      },
+      {
+        "beta": 70,
+        "rows": 328,
+        "model": 0.15405790879164685,
+        "calibrated": 0.21568107230830558,
+        "core_svp_log2": 20.439999999999998
+      },
+      {
+        "beta": 80,
+        "rows": 344,
+        "model": 0.1578423998198969,
+        "calibrated": 0.22097935974785562,
+        "core_svp_log2": 23.36
+      },
+      {
+        "beta": 90,
+        "rows": 344,
+        "model": 0.16145978039807354,
+        "calibrated": 0.22604369255730294,
+        "core_svp_log2": 26.279999999999998
+      },
+      {
+        "beta": 100,
+        "rows": 359,
+        "model": 0.16529869226682312,
+        "calibrated": 0.23141816917355235,
+        "core_svp_log2": 29.2
+      },
+      {
+        "beta": 150,
+        "rows": 390,
+        "model": 0.18140252851958855,
+        "calibrated": 0.25396353992742393,
+        "core_svp_log2": 43.8
+      }
+    ],
+    "needed": {
+      "beta": 150,
+      "rows": 390,
+      "model": 0.18140252851958855,
+      "calibrated": 0.25396353992742393,
+      "core_svp_log2": 43.8
+    },
+    "note": "GSA Babai model of the row-subset attack (q-ary Z-shape, rows on q-vectors score 0); calibrated by the largest measured best-of-run / model ratio; an estimate, not a bound"
+  }
+}

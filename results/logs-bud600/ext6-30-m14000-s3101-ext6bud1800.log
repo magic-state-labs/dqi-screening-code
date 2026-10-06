@@ -1,0 +1,12 @@
+scripts/30_alternant_trapdoor_finite_control.py --ext 6 --alpha 0.08 --sizes 14000 --seeds 3101 --line-seconds 1800 --heat-seconds 1800 --tag ext6bud1800 --cpsat-workers 2
+alternant size=14000 seed=3101: p=11 s=6 r=187 n=1122 modulus=(2, 0, 0, 0, 7, 3, 1) attempts=1 ell=93
+   decoder: 50/50 exact (failures {'rejected': 0, 'wrong': 0}); beyond radius {'weight': 94, 'trials': 10, 'rejected': 10, 'recovered': 0, 'wrong': 0}; 13.3s
+   model: rank 1122 alpha 0.0801 rho 0.4545 ell 93 | Q_fin 0.5321 (7448.7) Q_Pr 0.4983 mu_fin +0.0338 | threshold 12373 (above) | semicircle 0.5360
+   A_prange: 7149 (0.5106)
+   B_line: 7211 (0.5151)
+   C_heat: 7220 (0.5157)
+   E_cpsat: 7220 (0.5157) status FEASIBLE rows 3000 build 35s solve 91s
+   best classical 7220 (0.5157) by C_heat | DQI 7448.7 (0.5321) | best - DQI = -228.7 | below DQI | 4401s
+   wrote results/finite-control-alternant-run-ext6bud1800-m14000-s3101.json
+
+[run_ext6] exit 0 peak_rss_MB 2759 seconds 4405

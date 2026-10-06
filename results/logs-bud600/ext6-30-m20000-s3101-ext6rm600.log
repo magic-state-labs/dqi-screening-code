@@ -1,0 +1,13 @@
+scripts/30_alternant_trapdoor_finite_control.py --ext 6 --alpha 0.08 --sizes 20000 --seeds 3101 --line-seconds 600 --heat-seconds 600 --tag ext6rm600 --cpsat-workers 2 --random-matrix 1
+alternant size=20000 seed=3101: p=11 s=6 r=267 n=1602 modulus=(2, 0, 0, 0, 7, 3, 1) attempts=1 ell=133
+   decoder: 50/50 exact (failures {'rejected': 0, 'wrong': 0}); beyond radius {'weight': 134, 'trials': 10, 'rejected': 10, 'recovered': 0, 'wrong': 0}; 59.7s
+   matrix: uniformly random over F_11, same shape (20000, 1602) (Assumption (B) control)
+   model: rank 1602 alpha 0.0801 rho 0.4545 ell 133 | Q_fin 0.5329 (10657.7) Q_Pr 0.4982 mu_fin +0.0347 | threshold 11769 (above) | semicircle 0.5361
+   A_prange: 10144 (0.5072)
+   B_line: 10165 (0.5082)
+   C_heat: 10223 (0.5111)
+   E_cpsat: 10223 (0.5111) status FEASIBLE rows 3000 build 138s solve 91s
+   best classical 10223 (0.5111) by C_heat | DQI 10657.7 (0.5329) | best - DQI = -434.7 | below DQI | 4301s
+   wrote results/finite-control-alternant-run-ext6rm600-m20000-s3101-randommatrix.json
+
+[run_ext6] exit 0 peak_rss_MB 2016 seconds 4306

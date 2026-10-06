@@ -1,0 +1,235 @@
+{
+  "family": "logcauchy",
+  "objective": "cos",
+  "generator": "dqi_explorer.log_cauchy:build_log_cauchy_instance",
+  "results": [
+    {
+      "family": "logcauchy",
+      "kind": "log_cauchy",
+      "objective": "cos",
+      "size": 6000,
+      "seed": 3102,
+      "p": 8191,
+      "q": 8191,
+      "m": 6000,
+      "n": 420,
+      "rank": 420,
+      "alpha": 0.07,
+      "ell": 209,
+      "designed_distance": 421,
+      "reach_law": "alpha/2 for {0,+-1} errors (worst case); about alpha in measure",
+      "accepted_size": null,
+      "sets": "cos",
+      "rho": null,
+      "genus": 0,
+      "Q_fin": {
+        "value": 0.25179840333903325,
+        "lower": 0.2517984033387812,
+        "upper": 0.2517984033392853,
+        "method": "finite general-objective tridiagonal principal-eigenvalue interval"
+      },
+      "dqi_lemma92": 1510.7904200341995,
+      "dqi_crosscheck_abs_diff": null,
+      "semicircle": 0.259306661010558,
+      "Q_Pr": 0.07,
+      "mu_fin": 0.18179840333903324,
+      "threshold": 1728.9280517221787,
+      "above_threshold": true,
+      "decoder": {
+        "trials": 30,
+        "ell": 209,
+        "with_codewords": false,
+        "error_alphabet": "{+-1}",
+        "exact_recoveries": 30,
+        "all_recovered": true,
+        "by_weight": {
+          "14": [
+            1,
+            1
+          ],
+          "21": [
+            1,
+            1
+          ],
+          "23": [
+            1,
+            1
+          ],
+          "30": [
+            1,
+            1
+          ],
+          "56": [
+            2,
+            2
+          ],
+          "117": [
+            2,
+            2
+          ],
+          "119": [
+            1,
+            1
+          ],
+          "122": [
+            1,
+            1
+          ],
+          "131": [
+            1,
+            1
+          ],
+          "138": [
+            1,
+            1
+          ],
+          "143": [
+            1,
+            1
+          ],
+          "197": [
+            1,
+            1
+          ],
+          "201": [
+            1,
+            1
+          ],
+          "209": [
+            15,
+            15
+          ]
+        },
+        "failures": {
+          "rejected": 0,
+          "wrong": 0
+        },
+        "beyond_radius": {
+          "weight": 210,
+          "trials": 10,
+          "rejected": 10,
+          "recovered": 0,
+          "wrong": 0
+        },
+        "seconds": 109.97228002548218
+      },
+      "info": {
+        "h": 13
+      },
+      "gates": {
+        "alpha": 0.07,
+        "lambda": 0.034833333333333334,
+        "p": 8191,
+        "objective": "cos",
+        "D0": {
+          "pass": true,
+          "floor": 0.01945510577950851,
+          "support": 2
+        },
+        "D2": {
+          "pass": true,
+          "rule": "lambda(1-lambda) > alpha^2/2"
+        },
+        "D3": {
+          "pass": null,
+          "note": "no sets; the objective's moments enter the law"
+        },
+        "margin": 0.18930666101055799,
+        "Q_star": 0.7260908207848085,
+        "D1": {
+          "pass": true
+        },
+        "D6": {
+          "pass": true,
+          "note": "void on a prime alphabet"
+        },
+        "all_pass": true
+      },
+      "distinguisher": {
+        "skipped": "disabled (auto for m <= 600; pass square=True)"
+      },
+      "agreement_law": null,
+      "attacks": {
+        "A_prange": {
+          "best": 529.6587758441196,
+          "restarts": 24,
+          "mean": 0.06943883662966277,
+          "mode": "centre-solve",
+          "fraction": 0.0882764626406866,
+          "mean_minus_Q_Pr": -0.0005611633703372365
+        },
+        "B_line": {
+          "best": 664.1484681798806,
+          "moves": 237,
+          "restarts": 2,
+          "fraction": 0.11069141136331344
+        },
+        "C_heat": {
+          "best": 669.577134715986,
+          "moves": 285,
+          "fraction": 0.11159618911933099
+        },
+        "F_bkz": {
+          "skipped": "fpylll unavailable: ModuleNotFoundError"
+        },
+        "F_rounding": {
+          "best": 71.96887433821111,
+          "trials": 32,
+          "lll_used": false,
+          "note": "least-squares rounding toward the centres; no lattice reduction (fpylll unavailable)",
+          "fraction": 0.011994812389701851
+        },
+        "E_cpsat": {
+          "skipped": "not part of the generic screen"
+        }
+      },
+      "best_attack": "C_heat",
+      "best_classical": 669.577134715986,
+      "classical_minus_dqi": -841.2132853182136,
+      "classical_minus_dqi_fraction": -0.14020221421970228,
+      "beats_dqi": false,
+      "seconds": 451.6920442581177,
+      "budgets": {
+        "prange_restarts": 1587,
+        "line": 40.0,
+        "heat": 40.0,
+        "decoder_trials": 30
+      },
+      "decoder_worst_cases": {
+        "trials": 2,
+        "ell": 209,
+        "exact_recoveries": 2,
+        "all_recovered": true,
+        "by_kind": {
+          "plus": [
+            1,
+            1
+          ],
+          "minus": [
+            1,
+            1
+          ]
+        },
+        "failures": {
+          "rejected": 0,
+          "wrong": 0
+        },
+        "beyond_radius": {
+          "weight": 210,
+          "trials": 4,
+          "rejected": 4,
+          "recovered": 0,
+          "wrong": 0
+        },
+        "seconds": 22.680879592895508
+      }
+    }
+  ],
+  "h": 13,
+  "alpha": 0.07,
+  "bkz": {
+    "seconds": 120.0,
+    "block": 20,
+    "rows": 0
+  }
+}

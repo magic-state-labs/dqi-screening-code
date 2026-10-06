@@ -1,0 +1,87 @@
+{
+  "instance": "logcauchy-m600-s3101.json",
+  "fpylll": true,
+  "records": [
+    {
+      "attack": "A_subset_cvp",
+      "rows": 60,
+      "block": 2,
+      "subsets": 50,
+      "bkz_seconds": 0.37604475021362305,
+      "best_all_rows": 0.15201625288887063,
+      "subset_score_at_best": 0.999988864263482
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 60,
+      "block": 20,
+      "subsets": 50,
+      "bkz_seconds": 8.059929847717285,
+      "best_all_rows": 0.14644859054176398,
+      "subset_score_at_best": 0.9999921642577594
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 60,
+      "block": 40,
+      "subsets": 9,
+      "bkz_seconds": 311.16041111946106,
+      "best_all_rows": 0.13599921031524098,
+      "subset_score_at_best": 0.9999935568470358
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 100,
+      "block": 2,
+      "subsets": 50,
+      "bkz_seconds": 1.926839828491211,
+      "best_all_rows": 0.21175826225516878,
+      "subset_score_at_best": 0.9937563045247795
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 100,
+      "block": 20,
+      "subsets": 50,
+      "bkz_seconds": 66.89178109169006,
+      "best_all_rows": 0.21717872726213652,
+      "subset_score_at_best": 0.9977200476235649
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 100,
+      "block": 40,
+      "subsets": 2,
+      "bkz_seconds": 311.59076857566833,
+      "best_all_rows": 0.19231445945180553,
+      "subset_score_at_best": 0.997637886901223
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 150,
+      "block": 2,
+      "subsets": 50,
+      "bkz_seconds": 6.099222898483276,
+      "best_all_rows": 0.2614971216367115,
+      "subset_score_at_best": 0.754117473127926
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 150,
+      "block": 20,
+      "subsets": 27,
+      "bkz_seconds": 227.89219999313354,
+      "best_all_rows": 0.28726251668526315,
+      "subset_score_at_best": 0.9478153819320604
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 150,
+      "block": 40,
+      "subsets": 1,
+      "bkz_seconds": 303.12765741348267,
+      "best_all_rows": 0.25148414406436764,
+      "subset_score_at_best": 0.9133101882056148
+    }
+  ]
+}

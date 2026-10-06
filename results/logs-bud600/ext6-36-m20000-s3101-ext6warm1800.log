@@ -1,0 +1,14 @@
+scripts/36_keyholder_classical_control.py --ext 6 --alpha 0.08 --sizes 20000 --seeds 3101 --long-seconds 0 --warm-seconds 1800 --keyless-tag ext6bud600 --tag ext6warm1800
+alternant size=20000 seed=3101: r=267 n=1602 q=1771561 | DQI 10657.7 (0.5329) Q_Pr 0.4982
+   KE warm start from the key-less portfolio's best codeword: 10232 (0.5116)
+   KA_prange_q: 9426 (0.4713) {'restarts': 300, 'mean': 0.46209683333333335}
+   KB_line_q: 9496 (0.4748) {'moves': 3, 'restarts': 1, 'seconds': 40.0}
+   KC_heat_q: 9480 (0.4740) {'moves': 3, 'restarts': 1, 'seconds': 40.0}
+   KE_line_q_warm: 10232 (0.5116) {'moves': 109, 'restarts': 4, 'seconds': 1800.0}
+   KE_heat_q_warm: 10232 (0.5116) {'moves': 168, 'restarts': 1, 'seconds': 1800.0}
+   KD list recovery: needs agreement > sqrt(r m L) = 2073659 > m = 20000: vacuous
+   key-less (script 30): {'A_prange': 0.50975, 'B_line': 0.50865, 'C_heat': 0.5116, 'E_cpsat': 0.5116} best 0.5116
+   best key-holder 10232 (0.5116) by KE_line_q_warm | DQI 10657.7 | diff -425.7 | below DQI | 11622s
+   wrote results/finite-control-alternant-keyholder-run-ext6warm1800-m20000-s3101.json
+
+[run_ext6] exit 0 peak_rss_MB 1368 seconds 11628

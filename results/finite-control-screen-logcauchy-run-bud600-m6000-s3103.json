@@ -1,0 +1,227 @@
+{
+  "family": "logcauchy",
+  "objective": "cos",
+  "generator": "dqi_explorer.log_cauchy:build_log_cauchy_instance",
+  "results": [
+    {
+      "family": "logcauchy",
+      "kind": "log_cauchy",
+      "objective": "cos",
+      "size": 6000,
+      "seed": 3103,
+      "p": 8191,
+      "q": 8191,
+      "m": 6000,
+      "n": 420,
+      "rank": 420,
+      "alpha": 0.07,
+      "ell": 209,
+      "designed_distance": 421,
+      "reach_law": "alpha/2 for {0,+-1} errors (worst case); about alpha in measure",
+      "accepted_size": null,
+      "sets": "cos",
+      "rho": null,
+      "genus": 0,
+      "Q_fin": {
+        "value": 0.25179840333903325,
+        "lower": 0.2517984033387812,
+        "upper": 0.2517984033392853,
+        "method": "finite general-objective tridiagonal principal-eigenvalue interval"
+      },
+      "dqi_lemma92": 1510.7904200341995,
+      "dqi_crosscheck_abs_diff": null,
+      "semicircle": 0.259306661010558,
+      "Q_Pr": 0.07,
+      "mu_fin": 0.18179840333903324,
+      "threshold": 1728.9280517221787,
+      "above_threshold": true,
+      "decoder": {
+        "trials": 30,
+        "ell": 209,
+        "with_codewords": false,
+        "error_alphabet": "{+-1}",
+        "exact_recoveries": 30,
+        "all_recovered": true,
+        "by_weight": {
+          "32": [
+            1,
+            1
+          ],
+          "34": [
+            2,
+            2
+          ],
+          "59": [
+            1,
+            1
+          ],
+          "74": [
+            1,
+            1
+          ],
+          "81": [
+            1,
+            1
+          ],
+          "111": [
+            2,
+            2
+          ],
+          "133": [
+            1,
+            1
+          ],
+          "140": [
+            1,
+            1
+          ],
+          "148": [
+            1,
+            1
+          ],
+          "164": [
+            1,
+            1
+          ],
+          "166": [
+            1,
+            1
+          ],
+          "173": [
+            1,
+            1
+          ],
+          "200": [
+            1,
+            1
+          ],
+          "209": [
+            15,
+            15
+          ]
+        },
+        "failures": {
+          "rejected": 0,
+          "wrong": 0
+        },
+        "beyond_radius": {
+          "weight": 210,
+          "trials": 10,
+          "rejected": 10,
+          "recovered": 0,
+          "wrong": 0
+        },
+        "seconds": 155.06728434562683
+      },
+      "info": {
+        "h": 13
+      },
+      "gates": {
+        "alpha": 0.07,
+        "lambda": 0.034833333333333334,
+        "p": 8191,
+        "objective": "cos",
+        "D0": {
+          "pass": true,
+          "floor": 0.01945510577950851,
+          "support": 2
+        },
+        "D2": {
+          "pass": true,
+          "rule": "lambda(1-lambda) > alpha^2/2"
+        },
+        "D3": {
+          "pass": null,
+          "note": "no sets; the objective's moments enter the law"
+        },
+        "margin": 0.18930666101055799,
+        "Q_star": 0.7260908207848085,
+        "D1": {
+          "pass": true
+        },
+        "D6": {
+          "pass": true,
+          "note": "void on a prime alphabet"
+        },
+        "all_pass": true
+      },
+      "distinguisher": {
+        "skipped": "disabled (auto for m <= 600; pass square=True)"
+      },
+      "agreement_law": null,
+      "attacks": {
+        "A_prange": {
+          "best": 570.5595868617493,
+          "restarts": 24,
+          "mean": 0.0706132792383267,
+          "mode": "centre-solve",
+          "fraction": 0.0950932644769582,
+          "mean_minus_Q_Pr": 0.0006132792383267
+        },
+        "B_line": {
+          "best": 680.5918514504926,
+          "moves": 1690,
+          "restarts": 18,
+          "fraction": 0.11343197524174878
+        },
+        "C_heat": {
+          "best": 659.7914426696495,
+          "moves": 2556,
+          "fraction": 0.10996524044494159
+        },
+        "E_cpsat": {
+          "skipped": "not part of the generic screen"
+        }
+      },
+      "best_attack": "B_line",
+      "best_classical": 680.5918514504926,
+      "classical_minus_dqi": -830.1985685837069,
+      "classical_minus_dqi_fraction": -0.13836642809728447,
+      "beats_dqi": false,
+      "seconds": 1702.9867358207703,
+      "budgets": {
+        "prange_restarts": 1587,
+        "line": 600.0,
+        "heat": 600.0,
+        "decoder_trials": 30
+      },
+      "decoder_worst_cases": {
+        "trials": 2,
+        "ell": 209,
+        "exact_recoveries": 2,
+        "all_recovered": true,
+        "by_kind": {
+          "plus": [
+            1,
+            1
+          ],
+          "minus": [
+            1,
+            1
+          ]
+        },
+        "failures": {
+          "rejected": 0,
+          "wrong": 0
+        },
+        "beyond_radius": {
+          "weight": 210,
+          "trials": 4,
+          "rejected": 4,
+          "recovered": 0,
+          "wrong": 0
+        },
+        "seconds": 29.28048086166382
+      }
+    }
+  ],
+  "h": 13,
+  "alpha": 0.07,
+  "line_seconds": 600.0,
+  "heat_seconds": 600.0,
+  "bkz": {
+    "seconds": 120.0,
+    "block": 20,
+    "rows": 0
+  }
+}

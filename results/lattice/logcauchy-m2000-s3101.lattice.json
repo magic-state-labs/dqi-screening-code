@@ -1,0 +1,60 @@
+{
+  "instance": "logcauchy-m2000-s3101.json",
+  "fpylll": true,
+  "records": [
+    {
+      "attack": "A_subset_cvp",
+      "rows": 180,
+      "block": 2,
+      "subsets": 50,
+      "bkz_seconds": 54.7305269241333,
+      "best_all_rows": 0.12125506024806935,
+      "subset_score_at_best": 0.9998233252582095
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 180,
+      "block": 20,
+      "subsets": 9,
+      "bkz_seconds": 1202.2500083446503,
+      "best_all_rows": 0.1111671373039643,
+      "subset_score_at_best": 0.9999789855229012
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 220,
+      "block": 2,
+      "subsets": 50,
+      "bkz_seconds": 1183.4433026313782,
+      "best_all_rows": 0.1521286614683738,
+      "subset_score_at_best": 0.9600821789126941
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 220,
+      "block": 20,
+      "subsets": 50,
+      "bkz_seconds": 1075.5050876140594,
+      "best_all_rows": 0.13896645034670616,
+      "subset_score_at_best": 0.9509373440213407
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 260,
+      "block": 2,
+      "subsets": 8,
+      "bkz_seconds": 1202.667976617813,
+      "best_all_rows": 0.08159250702288676,
+      "subset_score_at_best": 0.4095424050456832
+    },
+    {
+      "attack": "A_subset_cvp",
+      "rows": 260,
+      "block": 20,
+      "subsets": 2,
+      "bkz_seconds": 1596.0710215568542,
+      "best_all_rows": 0.06766119717282124,
+      "subset_score_at_best": 0.24307227801959425
+    }
+  ]
+}

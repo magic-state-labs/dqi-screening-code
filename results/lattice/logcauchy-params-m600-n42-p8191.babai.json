@@ -1,0 +1,25 @@
+{
+  "instance": "logcauchy-params-m600-n42-p8191",
+  "babai": {
+    "attack": "E_babai_model",
+    "tau": 0.2235,
+    "calibration": 1.4,
+    "curve": [
+      {
+        "beta": 20,
+        "rows": 169,
+        "model": 0.24640489703049503,
+        "calibrated": 0.34496685584269304,
+        "core_svp_log2": 5.84
+      }
+    ],
+    "needed": {
+      "beta": 20,
+      "rows": 169,
+      "model": 0.24640489703049503,
+      "calibrated": 0.34496685584269304,
+      "core_svp_log2": 5.84
+    },
+    "note": "GSA Babai model of the row-subset attack (q-ary Z-shape, rows on q-vectors score 0); calibrated by the largest measured best-of-run / model ratio; an estimate, not a bound"
+  }
+}
